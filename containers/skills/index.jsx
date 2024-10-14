@@ -40,13 +40,7 @@ const Skills = () => {
                   >
                     <div className="progressbar-wrapper" key={j}>
                       <p>{skillItem.skillName}</p>
-                      <Line
-                        percent={skillItem.percentage}
-                        strokeWidth="2"
-                        strokeColor="var(--yellow-theme-main-color)"
-                        trailWidth="2"
-                        strokeLinecap="square"
-                      />
+                      
                     </div>
                   </AnimateKeyframes>
                 ))}
